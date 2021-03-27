@@ -1,0 +1,54 @@
+.menuTitle {
+	text-align: center;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	border-bottom: 2px solid black;
+	width: 10%;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding-bottom: 0px;
+	font-size: 40px;
+	font-weight: 900;
+}
+.drinks-section {
+	display: grid;
+	grid-template-columns: 1.6fr 1fr;
+	grid-template-rows: 120px 120px 120px 120px 100px;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.drinksTitle,
+.snacksTitle,
+.extrasTitle {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	border-bottom: 2px solid black;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-weight: 900;
+}
+.snacks-section {
+	display: grid;
+	grid-template-columns: 1.6fr 1fr;
+	grid-template-rows: 120px 120px 120px;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.extras-section {
+}
+.drinks-section-container {
+	margin-bottom: -60px;
+}
+.snacks-section-container {
+}
+.extras-section-container {
+}
+h6 {
+	color: rgb(117, 114, 114);
+}

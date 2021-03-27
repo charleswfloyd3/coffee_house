@@ -1,0 +1,18 @@
+body {
+	background-color: white;
+	height: 200vh;
+}
+.carousel {
+	width: 100%; /* Or try to use important */
+	height: auto;
+}
+.carousel-inner {
+	width: 100%;
+	max-height: 81vh !important;
+}
+#map {
+	height: 400px;
+	/* The height is 400 pixels */
+	width: 100%;
+	/* The width is the width of the web page */
+}
